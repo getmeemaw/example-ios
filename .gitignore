@@ -1,0 +1,5 @@
+
+cmd/.env
+.vscode/launch.json
+.vscode/settings.json
+cmd/Package.resolved

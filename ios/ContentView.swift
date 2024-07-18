@@ -1,5 +1,5 @@
 import SwiftUI
-import MeemawSDK
+import meemaw
 import web3
 
 struct ContentView: View {
