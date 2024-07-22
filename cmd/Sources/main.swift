@@ -49,7 +49,7 @@ public func AcceptDevice(wallet: Wallet) async throws -> Void {
 
 public func Export(wallet: Wallet) async throws -> Void {
     do{
-        let privateKey = try wallet.Recover()
+        let privateKey = try wallet.Export()
         print("privateKey:", privateKey)
     } catch {
         print("could not recover")
